@@ -6,5 +6,9 @@ target 'UnspalshWeather' do
   use_frameworks!
 
   # Pods for UnspalshWeather
+  
+  pod "UnsplashKit/API" # Official API
+  pod "UnsplashKit/Source" # Source API
+  # pod "DarkSkyKit"
 
 end

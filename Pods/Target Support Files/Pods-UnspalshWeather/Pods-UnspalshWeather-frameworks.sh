@@ -82,3 +82,22 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/CarambaKit/CarambaKit.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/HTTPStatusCodes/HTTPStatusCodes.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/KeychainSwift/KeychainSwift.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Result/Result.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SwiftyJSON/SwiftyJSON.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Unbox/Unbox.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/UnsplashKit/UnsplashKit.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/CarambaKit/CarambaKit.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/HTTPStatusCodes/HTTPStatusCodes.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/KeychainSwift/KeychainSwift.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Result/Result.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SwiftyJSON/SwiftyJSON.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Unbox/Unbox.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/UnsplashKit/UnsplashKit.framework"
+fi

@@ -1,0 +1,21 @@
+Let try to create simple weater appliction.
+1. the app will get the user location.
+2. the app query Yahoo API for One word conditions.
+3. this one work will query unsplash API to get image.
+
+
+
+-----------------
+I encounter an issue, now all yahoo onw word have result on unsplash api, What i'm tring now is to login to unsplash, and create collection with my desierd photos, and hope that i can get them from the api search.
+
+
+-----------------
+
+I did some resarch around simple communication layer, And i implemented it.
+Now i have some test to check that every thing works.
+
+After that, i have the following stepes:
+V 1. finish testing communication. 
+v 2. create git repository.
+v 3. install cocapods (becaus i found realy good unspalsh raper)
+4. ....
