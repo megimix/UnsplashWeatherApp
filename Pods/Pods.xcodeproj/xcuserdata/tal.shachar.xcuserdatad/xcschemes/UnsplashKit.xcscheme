@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '95EA995E6E177C0844AEE69C8C42C17C'
+               BlueprintIdentifier = '7C22E7ED64E84BE7AF1BF160D372EF1A'
                BlueprintName = 'UnsplashKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'UnsplashKit.framework'>

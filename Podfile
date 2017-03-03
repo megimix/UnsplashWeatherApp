@@ -7,8 +7,9 @@ target 'UnspalshWeather' do
 
   # Pods for UnspalshWeather
   
-  pod "UnsplashKit/API" # Official API
+  #pod "UnsplashKit/API" # Official API
+  pod "CarambaKit" , '1.0.6'
   pod "UnsplashKit/Source" # Source API
-  # pod "DarkSkyKit"
+  pod "DarkSkyKit"
 
 end

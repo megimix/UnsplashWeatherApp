@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A41586CA114F2B087F7B93920E1F2129'
+               BlueprintIdentifier = '7C99D6F4D9AC852FC5FA67FAF5FF9334'
                BlueprintName = 'CarambaKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'CarambaKit.framework'>
